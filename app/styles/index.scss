@@ -1,0 +1,14 @@
+@icon-font-path: '../node_modules/bootstrap/fonts/';
+@import '../../node_modules/bootstrap/less/bootstrap.less';
+
+$pic-width: 400px;
+
+body {
+	background-color: #212124;
+}
+
+.flickr-pic {
+	width: $pic-width;
+	margin: 10px;
+	border: 1px solid black;
+}

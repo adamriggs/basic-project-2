@@ -1,0 +1,7 @@
+{
+	"keys": {
+	    "key": "0ecc092d56f0543ed3bb4cf7bae1f3ea",
+	    "secret": "68dcf855b1fd265f",
+	    "url": "https://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=0ecc092d56f0543ed3bb4cf7bae1f3ea&format=json&nojsoncallback=1"
+	}
+}

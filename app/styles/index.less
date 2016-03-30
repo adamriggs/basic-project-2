@@ -1,0 +1,46 @@
+@icon-font-path: '../node_modules/bootstrap/fonts/';
+@import '../../node_modules/bootstrap/less/bootstrap.less';
+
+/*$pic-width: 400px;*/
+
+body {
+	background-color: #212124;
+}
+
+.masonry-div {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 70px;
+}
+
+.grid-sizer {
+	width: 100%;
+}
+
+.flickr-pic {
+	width: 360px;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+
+	.flickr-pic {
+		width: 720px;
+	}
+
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+
+	.flickr-pic {
+		width: 720px;
+	}
+
+}
